@@ -29,4 +29,4 @@ def multichoose2(n, k):
     return m
 
 
-print(factorial(5), permutation(5, 3), choose(5, 3), multichoose(5, 3), multichoose2(5, 3))
+print(factorial(5), permutation(5, 3), choose(5, 3), multichoose(5, 3), multichoose2(5, 3), permutaion(5,5))
