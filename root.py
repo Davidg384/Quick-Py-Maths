@@ -1,5 +1,7 @@
-def f(x):
-    return 4**x + 5**x - 6**x
+#!/bin/python
+
+def f(n):
+    return 9**n + 10**n - 11**n
 
 
 def bisection(a, b, tol):
@@ -16,9 +18,7 @@ def bisection(a, b, tol):
 
 def main():
     print("")
-    print("Root for 4^x + 5^x - 6^x = 0")
-    print("")
-    print("x = " + str(bisection(2, 3, 0.000001)))
+    print("n ~ " + str(bisection(4, 5, 0.000001)))
     print("")
 
 
